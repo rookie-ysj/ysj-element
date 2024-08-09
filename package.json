@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "dev": "pnpm -F @ysj-element/play dev",
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "echo \"ff\"",
     "docs:dev": "pnpm -F @ysj-element/docs dev",
     "docs:build": "pnpm -F @ysj-element/docs build"
   },
