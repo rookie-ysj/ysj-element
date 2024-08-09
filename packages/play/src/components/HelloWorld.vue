@@ -4,6 +4,7 @@ import { ErButton } from 'ysj-element'
 
 <template>
   <ErButton/>
+  {{ 'hhh' }}
 </template>
 
 <style scoped>
