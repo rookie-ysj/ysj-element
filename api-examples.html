@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en-US" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>Runtime API Examples | Ysj-element</title>
+    <meta name="description" content="仿element">
+    <meta name="generator" content="VitePress v1.3.2">
+    <link rel="preload stylesheet" href="/ysj-element/assets/style.CKxdP1R9.css" as="style">
+    
+    <script type="module" src="/ysj-element/assets/app.DCEhFyZ9.js"></script>
+    <link rel="preload" href="/ysj-element/assets/inter-roman-latin.Di8DUHzh.woff2" as="font" type="font/woff2" crossorigin="">
+    <link rel="modulepreload" href="/ysj-element/assets/chunks/theme.BZ6QSGVc.js">
+    <link rel="modulepreload" href="/ysj-element/assets/chunks/framework.BNmntzWz.js">
+    <link rel="modulepreload" href="/ysj-element/assets/api-examples.md.Crmym0IL.lean.js">
+    <script id="check-dark-mode">(()=>{const e=localStorage.getItem("vitepress-theme-appearance")||"auto",a=window.matchMedia("(prefers-color-scheme: dark)").matches;(!e||e==="auto"?a:e==="dark")&&document.documentElement.classList.add("dark")})();</script>
+    <script id="check-mac-os">document.documentElement.classList.toggle("mac",/Mac|iPhone|iPod|iPad/i.test(navigator.platform));</script>
+  </head>
+  <body>
+    <div id="app"><div class="Layout" data-v-5ef22014><!--[--><!--]--><!--[--><span tabindex="-1" data-v-c421925b></span><a href="#VPContent" class="VPSkipLink visually-hidden" data-v-c421925b> Skip to content </a><!--]--><!----><header class="VPNav" data-v-5ef22014 data-v-1d9545c6><div class="VPNavBar has-sidebar top" data-v-1d9545c6 data-v-603e7a2a><div class="wrapper" data-v-603e7a2a><div class="container" data-v-603e7a2a><div class="title" data-v-603e7a2a><div class="VPNavBarTitle has-sidebar" data-v-603e7a2a data-v-c8e9288f><a class="title" href="/ysj-element/" data-v-c8e9288f><!--[--><!--]--><!----><span data-v-c8e9288f>Ysj-element</span><!--[--><!--]--></a></div></div><div class="content" data-v-603e7a2a><div class="content-body" data-v-603e7a2a><!--[--><!--]--><div class="VPNavBarSearch search" data-v-603e7a2a><!----></div><nav aria-labelledby="main-nav-aria-label" class="VPNavBarMenu menu" data-v-603e7a2a data-v-fe277338><span id="main-nav-aria-label" class="visually-hidden" data-v-fe277338> Main Navigation </span><!--[--><!--[--><a class="VPLink link VPNavBarMenuLink" href="/ysj-element/" tabindex="0" data-v-fe277338 data-v-ba5abec9><!--[--><span data-v-ba5abec9>Home</span><!--]--></a><!--]--><!--[--><a class="VPLink link VPNavBarMenuLink" href="/ysj-element/markdown-examples.html" tabindex="0" data-v-fe277338 data-v-ba5abec9><!--[--><span data-v-ba5abec9>Examples</span><!--]--></a><!--]--><!--]--></nav><!----><div class="VPNavBarAppearance appearance" data-v-603e7a2a data-v-540f40b2><button class="VPSwitch VPSwitchAppearance" type="button" role="switch" title="Switch to dark theme" aria-checked="false" data-v-540f40b2 data-v-de309f3e data-v-7dee41c8><span class="check" data-v-7dee41c8><span class="icon" data-v-7dee41c8><!--[--><span class="vpi-sun sun" data-v-de309f3e></span><span class="vpi-moon moon" data-v-de309f3e></span><!--]--></span></span></button></div><div class="VPSocialLinks VPNavBarSocialLinks social-links" data-v-603e7a2a data-v-bf202fd4 data-v-adfd914e><!--[--><a class="VPSocialLink no-icon" href="https://github.com/vuejs/vitepress" aria-label="github" target="_blank" rel="noopener" data-v-adfd914e data-v-c446367f><span class="vpi-social-github" /></a><!--]--></div><div class="VPFlyout VPNavBarExtra extra" data-v-603e7a2a data-v-b569646d data-v-a6baba1c><button type="button" class="button" aria-haspopup="true" aria-expanded="false" aria-label="extra navigation" data-v-a6baba1c><span class="vpi-more-horizontal icon" data-v-a6baba1c></span></button><div class="menu" data-v-a6baba1c><div class="VPMenu" data-v-a6baba1c data-v-3f4d6e50><!----><!--[--><!--[--><!----><div class="group" data-v-b569646d><div class="item appearance" data-v-b569646d><p class="label" data-v-b569646d>Appearance</p><div class="appearance-action" data-v-b569646d><button class="VPSwitch VPSwitchAppearance" type="button" role="switch" title="Switch to dark theme" aria-checked="false" data-v-b569646d data-v-de309f3e data-v-7dee41c8><span class="check" data-v-7dee41c8><span class="icon" data-v-7dee41c8><!--[--><span class="vpi-sun sun" data-v-de309f3e></span><span class="vpi-moon moon" data-v-de309f3e></span><!--]--></span></span></button></div></div></div><div class="group" data-v-b569646d><div class="item social-links" data-v-b569646d><div class="VPSocialLinks social-links-list" data-v-b569646d data-v-adfd914e><!--[--><a class="VPSocialLink no-icon" href="https://github.com/vuejs/vitepress" aria-label="github" target="_blank" rel="noopener" data-v-adfd914e data-v-c446367f><span class="vpi-social-github" /></a><!--]--></div></div></div><!--]--><!--]--></div></div></div><!--[--><!--]--><button type="button" class="VPNavBarHamburger hamburger" aria-label="mobile navigation" aria-expanded="false" aria-controls="VPNavScreen" data-v-603e7a2a data-v-9b38fb88><span class="container" data-v-9b38fb88><span class="top" data-v-9b38fb88></span><span class="middle" data-v-9b38fb88></span><span class="bottom" data-v-9b38fb88></span></span></button></div></div></div></div><div class="divider" data-v-603e7a2a><div class="divider-line" data-v-603e7a2a></div></div></div><!----></header><div class="VPLocalNav has-sidebar empty" data-v-5ef22014 data-v-bc30f72e><div class="container" data-v-bc30f72e><button class="menu" aria-expanded="false" aria-controls="VPSidebarNav" data-v-bc30f72e><span class="vpi-align-left menu-icon" data-v-bc30f72e></span><span class="menu-text" data-v-bc30f72e>Menu</span></button><div class="VPLocalNavOutlineDropdown" style="--vp-vh:0px;" data-v-bc30f72e data-v-35710c1c><button data-v-35710c1c>Return to top</button><!----></div></div></div><aside class="VPSidebar" data-v-5ef22014 data-v-53418e1e><div class="curtain" data-v-53418e1e></div><nav class="nav" id="VPSidebarNav" aria-labelledby="sidebar-aria-label" tabindex="-1" data-v-53418e1e><span class="visually-hidden" id="sidebar-aria-label" data-v-53418e1e> Sidebar Navigation </span><!--[--><!--]--><!--[--><div class="no-transition group" data-v-9b0134dd><section class="VPSidebarItem level-0 has-active" data-v-9b0134dd data-v-379d3fd3><div class="item" role="button" tabindex="0" data-v-379d3fd3><div class="indicator" data-v-379d3fd3></div><h2 class="text" data-v-379d3fd3>Examples</h2><!----></div><div class="items" data-v-379d3fd3><!--[--><div class="VPSidebarItem level-1 is-link" data-v-379d3fd3 data-v-379d3fd3><div class="item" data-v-379d3fd3><div class="indicator" data-v-379d3fd3></div><a class="VPLink link link" href="/ysj-element/markdown-examples.html" data-v-379d3fd3><!--[--><p class="text" data-v-379d3fd3>Markdown Examples</p><!--]--></a><!----></div><!----></div><div class="VPSidebarItem level-1 is-link" data-v-379d3fd3 data-v-379d3fd3><div class="item" data-v-379d3fd3><div class="indicator" data-v-379d3fd3></div><a class="VPLink link link" href="/ysj-element/api-examples.html" data-v-379d3fd3><!--[--><p class="text" data-v-379d3fd3>Runtime API Examples</p><!--]--></a><!----></div><!----></div><!--]--></div></section></div><!--]--><!--[--><!--]--></nav></aside><div class="VPContent has-sidebar" id="VPContent" data-v-5ef22014 data-v-8d4be892><div class="VPDoc has-sidebar has-aside" data-v-8d4be892 data-v-292cb9f7><!--[--><!--]--><div class="container" data-v-292cb9f7><div class="aside" data-v-292cb9f7><div class="aside-curtain" data-v-292cb9f7></div><div class="aside-container" data-v-292cb9f7><div class="aside-content" data-v-292cb9f7><div class="VPDocAside" data-v-292cb9f7 data-v-2f3317f3><!--[--><!--]--><!--[--><!--]--><nav aria-labelledby="doc-outline-aria-label" class="VPDocAsideOutline" data-v-2f3317f3 data-v-5181d008><div class="content" data-v-5181d008><div class="outline-marker" data-v-5181d008></div><div aria-level="2" class="outline-title" id="doc-outline-aria-label" role="heading" data-v-5181d008>On this page</div><ul class="VPDocOutlineItem root" data-v-5181d008 data-v-440f2449><!--[--><!--]--></ul></div></nav><!--[--><!--]--><div class="spacer" data-v-2f3317f3></div><!--[--><!--]--><!----><!--[--><!--]--><!--[--><!--]--></div></div></div></div><div class="content" data-v-292cb9f7><div class="content-container" data-v-292cb9f7><!--[--><!--]--><main class="main" data-v-292cb9f7><div style="position:relative;" class="vp-doc _ysj-element_api-examples" data-v-292cb9f7><div><h1 id="runtime-api-examples" tabindex="-1">Runtime API Examples <a class="header-anchor" href="#runtime-api-examples" aria-label="Permalink to &quot;Runtime API Examples&quot;">​</a></h1><p>This page demonstrates usage of some of the runtime APIs provided by VitePress.</p><p>The main <code>useData()</code> API can be used to access site, theme, and page data for the current page. It works in both <code>.md</code> and <code>.vue</code> files:</p><div class="language-md vp-adaptive-theme"><button title="Copy Code" class="copy"></button><span class="lang">md</span><pre class="shiki shiki-themes github-light github-dark vp-code" tabindex="0"><code><span class="line"><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;">&lt;</span><span style="--shiki-light:#22863A;--shiki-dark:#85E89D;">script</span><span style="--shiki-light:#6F42C1;--shiki-dark:#B392F0;"> setup</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;">&gt;</span></span>
+<span class="line"><span style="--shiki-light:#D73A49;--shiki-dark:#F97583;">import</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;"> { useData } </span><span style="--shiki-light:#D73A49;--shiki-dark:#F97583;">from</span><span style="--shiki-light:#032F62;--shiki-dark:#9ECBFF;"> &#39;vitepress&#39;</span></span>
+<span class="line"></span>
+<span class="line"><span style="--shiki-light:#D73A49;--shiki-dark:#F97583;">const</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;"> { </span><span style="--shiki-light:#005CC5;--shiki-dark:#79B8FF;">theme</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;">, </span><span style="--shiki-light:#005CC5;--shiki-dark:#79B8FF;">page</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;">, </span><span style="--shiki-light:#005CC5;--shiki-dark:#79B8FF;">frontmatter</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;"> } </span><span style="--shiki-light:#D73A49;--shiki-dark:#F97583;">=</span><span style="--shiki-light:#6F42C1;--shiki-dark:#B392F0;"> useData</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;">()</span></span>
+<span class="line"><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;">&lt;/</span><span style="--shiki-light:#22863A;--shiki-dark:#85E89D;">script</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;">&gt;</span></span>
+<span class="line"></span>
+<span class="line"><span style="--shiki-light:#005CC5;--shiki-dark:#79B8FF;--shiki-light-font-weight:bold;--shiki-dark-font-weight:bold;">## Results</span></span>
+<span class="line"></span>
+<span class="line"><span style="--shiki-light:#005CC5;--shiki-dark:#79B8FF;--shiki-light-font-weight:bold;--shiki-dark-font-weight:bold;">### Theme Data</span></span>
+<span class="line"><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;">&lt;</span><span style="--shiki-light:#22863A;--shiki-dark:#85E89D;">pre</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;">&gt;{{ theme }}&lt;/</span><span style="--shiki-light:#22863A;--shiki-dark:#85E89D;">pre</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;">&gt;</span></span>
+<span class="line"></span>
+<span class="line"><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;">### Page Data</span></span>
+<span class="line"><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;">&lt;</span><span style="--shiki-light:#22863A;--shiki-dark:#85E89D;">pre</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;">&gt;{{ page }}&lt;/</span><span style="--shiki-light:#22863A;--shiki-dark:#85E89D;">pre</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;">&gt;</span></span>
+<span class="line"></span>
+<span class="line"><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;">### Page Frontmatter</span></span>
+<span class="line"><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;">&lt;</span><span style="--shiki-light:#22863A;--shiki-dark:#85E89D;">pre</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;">&gt;{{ frontmatter }}&lt;/</span><span style="--shiki-light:#22863A;--shiki-dark:#85E89D;">pre</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;">&gt;</span></span></code></pre></div><h2 id="results" tabindex="-1">Results <a class="header-anchor" href="#results" aria-label="Permalink to &quot;Results&quot;">​</a></h2><h3 id="theme-data" tabindex="-1">Theme Data <a class="header-anchor" href="#theme-data" aria-label="Permalink to &quot;Theme Data&quot;">​</a></h3><pre>{
+  &quot;nav&quot;: [
+    {
+      &quot;text&quot;: &quot;Home&quot;,
+      &quot;link&quot;: &quot;/&quot;
+    },
+    {
+      &quot;text&quot;: &quot;Examples&quot;,
+      &quot;link&quot;: &quot;/markdown-examples&quot;
+    }
+  ],
+  &quot;sidebar&quot;: [
+    {
+      &quot;text&quot;: &quot;Examples&quot;,
+      &quot;items&quot;: [
+        {
+          &quot;text&quot;: &quot;Markdown Examples&quot;,
+          &quot;link&quot;: &quot;/markdown-examples&quot;
+        },
+        {
+          &quot;text&quot;: &quot;Runtime API Examples&quot;,
+          &quot;link&quot;: &quot;/api-examples&quot;
+        }
+      ]
+    }
+  ],
+  &quot;socialLinks&quot;: [
+    {
+      &quot;icon&quot;: &quot;github&quot;,
+      &quot;link&quot;: &quot;https://github.com/vuejs/vitepress&quot;
+    }
+  ]
+}</pre><h3 id="page-data" tabindex="-1">Page Data <a class="header-anchor" href="#page-data" aria-label="Permalink to &quot;Page Data&quot;">​</a></h3><pre>{
+  &quot;title&quot;: &quot;Runtime API Examples&quot;,
+  &quot;description&quot;: &quot;&quot;,
+  &quot;frontmatter&quot;: {
+    &quot;outline&quot;: &quot;deep&quot;
+  },
+  &quot;headers&quot;: [],
+  &quot;relativePath&quot;: &quot;api-examples.md&quot;,
+  &quot;filePath&quot;: &quot;api-examples.md&quot;
+}</pre><h3 id="page-frontmatter" tabindex="-1">Page Frontmatter <a class="header-anchor" href="#page-frontmatter" aria-label="Permalink to &quot;Page Frontmatter&quot;">​</a></h3><pre>{
+  &quot;outline&quot;: &quot;deep&quot;
+}</pre><h2 id="more" tabindex="-1">More <a class="header-anchor" href="#more" aria-label="Permalink to &quot;More&quot;">​</a></h2><p>Check out the documentation for the <a href="https://vitepress.dev/reference/runtime-api#usedata" target="_blank" rel="noreferrer">full list of runtime APIs</a>.</p></div></div></main><footer class="VPDocFooter" data-v-292cb9f7 data-v-eba63c21><!--[--><!--]--><!----><nav class="prev-next" aria-labelledby="doc-footer-aria-label" data-v-eba63c21><span class="visually-hidden" id="doc-footer-aria-label" data-v-eba63c21>Pager</span><div class="pager" data-v-eba63c21><a class="VPLink link pager-link prev" href="/ysj-element/markdown-examples.html" data-v-eba63c21><!--[--><span class="desc" data-v-eba63c21>Previous page</span><span class="title" data-v-eba63c21>Markdown Examples</span><!--]--></a></div><div class="pager" data-v-eba63c21><!----></div></nav></footer><!--[--><!--]--></div></div></div><!--[--><!--]--></div></div><!----><!--[--><!--]--></div></div>
+    <script>window.__VP_HASH_MAP__=JSON.parse("{\"api-examples.md\":\"Crmym0IL\",\"index.md\":\"CTAq9wXK\",\"markdown-examples.md\":\"BzsgAz0q\"}");window.__VP_SITE_DATA__=JSON.parse("{\"lang\":\"en-US\",\"dir\":\"ltr\",\"title\":\"Ysj-element\",\"description\":\"仿element\",\"base\":\"/ysj-element/\",\"head\":[],\"router\":{\"prefetchLinks\":true},\"appearance\":true,\"themeConfig\":{\"nav\":[{\"text\":\"Home\",\"link\":\"/\"},{\"text\":\"Examples\",\"link\":\"/markdown-examples\"}],\"sidebar\":[{\"text\":\"Examples\",\"items\":[{\"text\":\"Markdown Examples\",\"link\":\"/markdown-examples\"},{\"text\":\"Runtime API Examples\",\"link\":\"/api-examples\"}]}],\"socialLinks\":[{\"icon\":\"github\",\"link\":\"https://github.com/vuejs/vitepress\"}]},\"locales\":{},\"scrollOffset\":134,\"cleanUrls\":false}");</script>
+    
+  </body>
+</html>
